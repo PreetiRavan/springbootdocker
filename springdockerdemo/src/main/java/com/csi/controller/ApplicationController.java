@@ -19,5 +19,11 @@ public class ApplicationController {
         return "Inspiria Mall | Pune | Nigdi";
     }
 
+    @RequestMapping("/Application")
+    public String sayApplication()
+    {
+        return "Application Developer | Qr Code Developer";
+    }
+
 
 }
